@@ -1,6 +1,6 @@
 # Go::Zxing::Qrcode
 
-TODO: Write a gem description
+Go QR Code encoder Ruby wrapper.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+GoZXingQrcode::Encoder.generateQRCodeImage("string to encode", "image.png", 3,5)
 
 ## Contributing
 
