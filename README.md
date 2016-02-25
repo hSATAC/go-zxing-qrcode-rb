@@ -1,4 +1,4 @@
-# Go::Zxing::Qrcode
+# GoZxingQRCode
 
 Go QR Code encoder Ruby wrapper.
 
@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-// Parameters: value, filepath, eclevel(0~3), gridSize
+# Parameters: value, filepath, eclevel(0~3), gridSize
 GoZXingQRCode::Encoder.generateQRCodeImage("string to encode", "image.png", 3,5)
 ````
 
