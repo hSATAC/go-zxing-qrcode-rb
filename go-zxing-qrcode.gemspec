@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["hsatac@gmail.com"]
   spec.summary       = %q{Go ZXing QR Code Encoder Ruby wrapper.}
   spec.description   = %q{Go ZXing QR Code Encoder Ruby wrapper.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/hSATAC/go-zxing-qrcode-rb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
