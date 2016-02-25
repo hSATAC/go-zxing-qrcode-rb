@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-GoZXingQrcode::Encoder.generateQRCodeImage("string to encode", "image.png", 3,5)
+```ruby
+// Parameters: value, filepath, eclevel(0~3), gridSize
+GoZXingQRCode::Encoder.generateQRCodeImage("string to encode", "image.png", 3,5)
+````
 
 ## Contributing
 
