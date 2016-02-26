@@ -1,9 +1,7 @@
 require 'ffi'
-require 'singleton'
 
 module GoZXingQRCode
-  class Encoder
-    include Singleton
+  module Encoder
     extend FFI::Library
     if RUBY_PLATFORM =~ /linux/
       ffi_lib File.expand_path("./libgoqrencoder_x86_64_linux.so", File.dirname(__FILE__))
