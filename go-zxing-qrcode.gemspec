@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "go-zxing-qrcode"
-  spec.version       = "0.1.2"
+  spec.version       = "0.1.3"
   spec.authors       = ["hSATAC"]
   spec.email         = ["hsatac@gmail.com"]
   spec.summary       = %q{Go ZXing QR Code Encoder Ruby wrapper.}
